@@ -38,5 +38,7 @@ A star schema stores usage measurements in a central fact table linked directly 
 Resource: Microsoft Learn - Understand star schema and the importance for Power BI - https://learn.microsoft.com/en-us/power-bi/guidance/star-schema/
 
 ## Misconception in My Track
+A common misconception is that every 5G network slice requires a separate physical network, with its own towers and equipment. In fact, network slicing enables an operator to provide different logical networks within a shared 5G system, with tailored functionality and performance. Section 6.1.1, "Description", of ETSI TS 122 261 explains that a single network can support several slices. For emergency responders, a public-safety slice can apply appropriate priority, reliability and access policies. However, it still depends on underlying infrastructure, so physical outages require backup connectivity and resilience measures beyond slicing.
 
 ## Open Question
+How would the operator test whether a public-safety slice maintains acceptable latency and availability during heavy congestion, and what backup communication path would protect responders if the underlying 5G infrastructure fails?
